@@ -13,7 +13,7 @@ int main (){
 	struct hostent *remote;
 	char host[20] = "your host";
 
-    remote = gethostbyname(host);
+        remote = gethostbyname(host);
 	char *ip = inet_ntoa(*((struct in_addr *)remote->h_addr));
 
 	SOCKET s;
