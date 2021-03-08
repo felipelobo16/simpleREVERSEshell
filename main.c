@@ -5,6 +5,8 @@
 STARTUPINFO ini_processo;
 PROCESS_INFORMATION processo_info;
 
+## dns resolver + reverse shell in c = FUN FUN FUN !!!
+
 int main (){
 
 	WSADATA wsdata;
